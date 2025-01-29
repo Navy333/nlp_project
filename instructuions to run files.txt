@@ -1,0 +1,21 @@
+Instructions to Run the Script
+
+
+Install the necessary Python libraries:
+
+pip install requests beautifulsoup4 pandas textblob nltk openpyxl
+
+
+Download the necessary NLTK data:
+
+python
+Copy code
+import nltk
+nltk.download('punkt')
+nltk.download('cmudict')
+Run the extraction and analysis script:
+
+ 
+ run :
+
+python Article_extrction.py
